@@ -4,7 +4,8 @@ class HomePage extends Component {
   render() {
     return (
       <div>
-        Home Page
+        <h1>Home Page</h1>
+        <p>This page here, will display links to my showcase</p>
       </div>
     )
   }
