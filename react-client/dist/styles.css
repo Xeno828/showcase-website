@@ -1,3 +1,8 @@
+.deadlinestyle {
+  height: 48px;
+  width: auto;
+}
+
 header {
   display: block;
   background-color: grey;
@@ -25,7 +30,6 @@ header {
   background-color: white;
   transition: .30s;
 }
-
 
 footer {
   display: block;

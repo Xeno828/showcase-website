@@ -6,6 +6,7 @@ class HomePage extends Component {
       <div>
         <h1>Home Page</h1>
         <p>This page here, will display links to my showcase</p>
+        <img src="images/deadline.gif" id="deadlinestyle"></img>
       </div>
     )
   }

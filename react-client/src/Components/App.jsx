@@ -5,7 +5,7 @@ import HomePage from './home-page'
 import AboutPage from './about-page'
 import PortfolioPage from './portfolio-page'
 import NavBar from './header-component/nav-bar'
-import Footer from './footer'
+import Footer from './footer-component/footer'
 
 class App extends Component {
   render() {
