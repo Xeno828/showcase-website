@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class AboutPage extends Component {
+export default class AboutPage extends Component {
   render() {
     return (
       <div>
@@ -10,5 +10,3 @@ class AboutPage extends Component {
     )
   }
 }
-
-export default AboutPage;

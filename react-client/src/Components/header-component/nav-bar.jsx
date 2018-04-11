@@ -1,18 +1,17 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import styles from './styles.css'
 
-class NavBar extends Component {
+export default class NavBar extends Component {
   render() {
     return (
-      <header>
-        <ul id="headerButtons">
-          <li className="navButton"><Link to="">Home</Link></li>
-          <li className="navButton"><Link to="/about">About</Link></li>
-          <li className="navButton"><Link to="/portfolio">Portfolio</Link></li>
+      <header className={styles.header}>
+        <ul className={styles.headerButtons}>
+          <li className={styles.navButton}><Link to="">Home</Link></li>
+          <li className={styles.navButton}><Link to="/about">About</Link></li>
+          <li className={styles.navButton}><Link to="/portfolio">Portfolio</Link></li>
         </ul>
       </header>
     )
   }
 }
-
-export default NavBar;
